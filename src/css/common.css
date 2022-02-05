@@ -42,3 +42,48 @@ button[data-stop] {
   font-weight: 500;
   cursor: pointer;
 }
+
+.data-time-picker {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.flatpickr-input {
+  display: flex;
+  justify-content: center;
+  margin: 260px 0 0 70px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 240px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+
+  width: 100px;
+  height: 100px;
+}
+
+.value {
+  margin: -5px 0;
+
+  font-size: 36px;
+  font-weight: 700;
+
+  color: black;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 300;
+
+  color: grey;
+}
